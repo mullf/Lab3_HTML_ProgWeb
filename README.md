@@ -116,7 +116,7 @@
 - Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table.
 
 ```
-<table border="1" cellpadding="4" cellspacing="3">
+<table border="1" cellpadding="4" cellspacing="0">
 ```
 ![prak3_html6](https://github.com/mullf/Lab3_HTML_ProgWeb/assets/115521049/d77872f5-01c5-4c1d-8473-133d08989d70)
 ### Menggabungkan Sel Data
