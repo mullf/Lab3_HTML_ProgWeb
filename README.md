@@ -212,4 +212,4 @@ form action="proses.php" method="post">
 ![prak3_html9](https://github.com/mullf/Lab3_HTML_ProgWeb/assets/115521049/af4d6240-1e06-4b86-956c-914f1a859f23)
 ### Pertanyaan dan Tugas
 - Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
-![prak3_html10](https://github.com/mullf/Lab3_HTML_ProgWeb/assets/115521049/18930ce2-220c-4d2a-b73e-203977042e61)
+![prak3_html10](https://github.com/mullf/Lab3_HTML_ProgWeb/assets/115521049/ac91fe06-2207-4935-b3bd-611dfa01650d)
