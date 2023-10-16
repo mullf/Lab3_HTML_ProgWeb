@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Pendaftaran</title>
+</head>
+<body>
+    <header>
+        <img src="Logo_Nusantara.png" width="70" height="115">
+        <img src="HUT RI 78_Logo Utama (Warna).png" width="205" height="140">
+        <h2 style="text-align:center">Pendaftaran Upacara Hadir Langsung</h2>
+    </header>
+        <form action="proses.php" method="post" class="Form">
+            <fieldset>
+                <p>
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan Nama">
+                </p>
+                <p>
+                    <label for="Tanggal Lahir">Tanggal Lahir</label>
+                    <input type="date" id="Tanggal Lahir" name="Tanggal Lahir">
+                </p>
+                <p>
+                    <label for="Email">NIK</label>
+                    <input type="text" id="NIK" name="NIK" id="Email" required placeholder="Masukkan NIK">
+                </p>
+                <p>
+                    <label>Jenis Kelamin</label>
+                    <input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-laki</label>
+                    <input id="jk_p" type="radio" name="kelamin" value="P" /><label for="jk_p">Perempuan</label>
+                </p>
+                <p>
+                    <label for="Alamat">Alamat</label>
+                    <input type="text" id="Alamat" name="Alamat" id="Alamat" required placeholder="Masukkan Alamat">
+                </p>
+                <p>
+                    <label for="Profesi">Profesi</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="profesi1">ASN</option>
+                        <option value="profesi2">TNI</option>
+                        <option value="profesi3">POLRI</option>
+                        <option value="profesi4">Pegawai Swasta</option>
+                    <option value="profesi5">Pelajar/Mahasiswa</option>
+                    <option value="profesi6">Lainnya</option>
+                </select>
+                </p>
+                <p>
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" name="Email" id="Email" required placeholder="emailanda01@gmail.com">
+                </p>
+                <p>
+                    <label for="Nomor Whatsapp">Nomor Whatsapp : </label>
+                    <input type="text" name="Nomor Whatsapp" id="Whatsapp" required placeholder="081200001111">
+                </p>
+                <p>
+                    <label for="Permohon Undangan">Permohon Undangan</label>
+                    <select id="dropdown" name="dropdown">
+                        <option value="permohon1">Upacara Detik-Detik Proklamasi</option>
+                        <option value="permohon2">Upacara Penurunan Bendera</option>
+                </select>
+                </p>
+                <p align="center">
+                    <input type="submit" value="Simpan">
+                </p>
+            </fieldset>
+            <style>
+                form p > label {
+                    display: inline-block;
+                    width: 100px;
+                }
+                fieldset {
+                    border-radius: 10px;
+                    background-color: #E52B2D;
+                }
+                form input [type="submit"] {
+                    border: 1px solid #231F20;;
+                    background-color: ghostwhite;
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    padding: 5px 15px;
+                }
+                form {color: black;}
+            </style>
+</body>
+</html>
